@@ -1,5 +1,7 @@
 if _G.DiviHubRunning then return end
 _G.DiviHubRunning = true
+if _G.DiviHubRunning then return end
+_G.DiviHubRunning = true
 
 repeat task.wait() until game:IsLoaded()
 
